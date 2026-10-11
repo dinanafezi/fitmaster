@@ -1,3 +1,11 @@
-self.addEventListener('fetch', function(event) {
-  // این سرویس ورکر اجازه می‌دهد برنامه آفلاین باز شود
+self.addEventListener('install', (e) => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (e) => {
+  return self.clients.claim();
+});
+
+self.addEventListener('fetch', (e) => {
+  // خالی
 });
