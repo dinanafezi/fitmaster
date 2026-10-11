@@ -1,0 +1,8 @@
+{
+  "name": "FitMaster Pro",
+  "short_name": "FitMaster",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
